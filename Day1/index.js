@@ -38,6 +38,5 @@ function similarity(list1, list2) {
   Object.keys(map).map((el) => {
     ans += parseInt(map[el]) * el;
   });
-  console.log(map);
   return ans;
 }
